@@ -9,7 +9,7 @@ using namespace std;
 #define OPEN_FILE_ERROR 100
 #define FILE_NOT_FOUND_ERROR 125
 #define INVALID_CHAR 150 
-
+#define INVALID_INPUT_STRING 175
 #define FILLED_BY_DEFAULT_VAL 1025
 #define NO_INFO 1000
 
@@ -23,6 +23,7 @@ public:
 	static const string ERROR_INDEX_MSG;
 	static const string ERROR_OPENFILE_MSG;
 	static const string ERROR_FILENOTFOUND_MSG;
+	static const string INVALID_INPUT_STRING_MSG;
 
 	CError() {
 		error_code = NO_ERROR;
@@ -59,6 +60,7 @@ const string CError::ERR0R_SIZE_MSG = "Wrong size of the input matrix";
 const string CError::ERROR_INDEX_MSG = "The index is out of bound";
 const string CError::ERROR_OPENFILE_MSG = "File cannot be opened";
 const string CError::ERROR_FILENOTFOUND_MSG = "The file is not found";
+ const string  CError::INVALID_INPUT_STRING_MSG = "Prohibited string occurs";
 
 
 class Matrix_Exception {

@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\Lista1\Lista1\CMySmartPointer.h" />
     <ClInclude Include="CError.h" />
+    <ClInclude Include="Thread_mtrx.h" />
     <ClInclude Include="Matrix.h" />
   </ItemGroup>
   <ItemGroup>

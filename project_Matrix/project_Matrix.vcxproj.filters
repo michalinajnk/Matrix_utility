@@ -24,6 +24,9 @@
     <ClInclude Include="CError.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Thread_mtrx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Matrix.cpp">

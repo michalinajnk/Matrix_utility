@@ -1,0 +1,91 @@
+﻿  Test_Matrix.cpp
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Test_Matrix.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.h(150,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(112,1): warning C4812: obsolete declaration style: please use 'Matrix<T>::Matrix' instead
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(112,1): warning C4812: obsolete declaration style: please use 'Matrix<double>::Matrix' instead
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(112): message : while compiling class template member function 'Matrix<double>::Matrix(Matrix<double> &&) noexcept'
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.h(70): message : see reference to function template instantiation 'Matrix<double>::Matrix(Matrix<double> &&) noexcept' being compiled
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(33): message : see reference to class template instantiation 'Matrix<double>' being compiled
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(112,1): warning C4812: obsolete declaration style: please use 'Matrix<int>::Matrix' instead
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(112): message : while compiling class template member function 'Matrix<int>::Matrix(Matrix<int> &&) noexcept'
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.h(89): message : see reference to function template instantiation 'Matrix<int>::Matrix(Matrix<int> &&) noexcept' being compiled
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(35): message : see reference to class template instantiation 'Matrix<int>' being compiled
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(672,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(659): message : while compiling class template member function 'T Matrix<T>::det_bigger(std::vector<Matrix<T>,std::allocator<Matrix<T>>> &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(734): message : see reference to function template instantiation 'T Matrix<T>::det_bigger(std::vector<Matrix<T>,std::allocator<Matrix<T>>> &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(424): message : while compiling class template member function 'void Matrix<int>::import_matrix_from_txt_file(std::string,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Test_Matrix.cpp(13): message : see reference to function template instantiation 'void Matrix<int>::import_matrix_from_txt_file(std::string,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(439,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(432): message : while compiling class template member function 'void Matrix<float>::check_input_size(std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &,CError *,int &,T &)'
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(385): message : see reference to function template instantiation 'void Matrix<float>::check_input_size(std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &,CError *,int &,T &)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(364): message : while compiling class template member function 'void Matrix<float>::import_matrix_from_buffer(std::string,T,std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &)'
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(427): message : see reference to function template instantiation 'void Matrix<float>::import_matrix_from_buffer(std::string,T,std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(424): message : while compiling class template member function 'void Matrix<float>::import_matrix_from_txt_file(std::string,T)'
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Test_Matrix.cpp(139): message : see reference to function template instantiation 'void Matrix<float>::import_matrix_from_txt_file(std::string,T)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(31): message : see reference to class template instantiation 'Matrix<float>' being compiled
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(441,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(454,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(452): message : while compiling class template member function 'void Matrix<float>::fill_by_default_val(std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &,int,CError *,T &)'
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(446): message : see reference to function template instantiation 'void Matrix<float>::fill_by_default_val(std::vector<std::vector<T,std::allocator<T>>,std::allocator<std::vector<T,std::allocator<T>>>> &,int,CError *,T &)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(321): message : while compiling class template member function 'void Matrix<float>::read_number_from_bufferString(std::string,std::vector<T,std::allocator<T>> *,CError *)'
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(379): message : see reference to function template instantiation 'void Matrix<float>::read_number_from_bufferString(std::string,std::vector<T,std::allocator<T>> *,CError *)' being compiled
+          with
+          [
+              T=float
+          ]
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(456,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Michalina\source\repos\project_Matrix\project_Matrix\Matrix.cpp(459,22): warning C4018: '<=': signed/unsigned mismatch
+  project_Matrix.vcxproj -> C:\Users\Michalina\source\repos\project_Matrix\Debug\project_Matrix.exe
